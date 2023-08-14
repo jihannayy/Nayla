@@ -1,0 +1,85 @@
+*{
+  margin-top: 0%;
+}
+nav {
+     background-color: rgb(125, 215, 8); 
+}
+.kolom {
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: last baseline;
+    
+}
+
+.kolom>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(125, 215, 8);
+    z-index: 99;
+}
+
+
+.kolom>ul>li>ul>li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px  16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: greenyellow;
+}
+
+.navBar {
+    margin-top: 32px;
+    list-style-type: none;
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.kolom > ul>li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.navBar li:hover .dropdown {
+    display: block;
+    padding-top: 35px;
+    margin-left: -35px;
+    
+}
+
+.dropdown li {
+    width: 120px;
+    border: 2px solid black;
+    background-color: rgb(247, 246, 246);
+    color: bisque;
+
+
+}
+
+.navBar li:hover, .navBar li a:hover {
+    color: aliceblue;
+}
+
+.carousel > div >img {
+    
+    z-index: -99;
+}
+
+.kolom > li >ul> li {
+     z-index: 10;
+}
+
